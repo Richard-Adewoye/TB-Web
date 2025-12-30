@@ -1,13 +1,13 @@
 // app/components/RelationshipFramework.tsx
 "use client";
-import { JSX } from "react/jsx-dev-runtime";
+
 
 import { AlertCircle, Lightbulb, Shield } from "lucide-react";
 
 interface FrameworkItem {
   title: string;
   description: string;
-  icon: JSX.Element;
+  icon: React.ReactNode;
   iconBg: string;
   accentColor: string;
 }

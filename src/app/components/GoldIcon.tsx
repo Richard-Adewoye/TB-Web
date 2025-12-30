@@ -1,9 +1,7 @@
 "use client";
 
-import { JSX } from "react/jsx-runtime";
-
 interface GoldIconProps {
-  icon: JSX.Element;
+  icon: React.ReactNode;
   size?: number;
   className?: string;
 }

@@ -1,4 +1,5 @@
 // components/ui/IconBox.tsx
+"use client";
 import { LucideIcon } from "lucide-react";
 
 interface IconBoxProps {
