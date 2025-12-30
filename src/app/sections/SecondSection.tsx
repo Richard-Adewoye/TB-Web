@@ -1,12 +1,11 @@
 "use client";
 
 import { Users, Heart, Network } from "lucide-react";
-import { JSX } from "react/jsx-dev-runtime";
 
 interface AssessmentCard {
   title: string;
   description: string;
-  icon: JSX.Element;
+  icon: React.ReactNode;
 }
 
 const assessmentData: AssessmentCard[] = [

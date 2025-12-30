@@ -1,6 +1,6 @@
 "use client";
 
-import { services } from "../../constants/services";
+import { services } from "../constants/services";
 import IconBox from "../components/IconBox";
 
 export default function ServiceList() {

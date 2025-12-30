@@ -1,5 +1,7 @@
 // constants/services.ts
+"use client";
 import { Sofa, Book, Users, Clock } from "lucide-react";
+
 
 export const services = [
   {
