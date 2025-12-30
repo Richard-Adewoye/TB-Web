@@ -46,18 +46,7 @@ export default function ServiceGrid() {
               {/* Icon container */}
               <div className="relative mb-6 transform group-hover:scale-110 group-hover:-rotate-3 
                             transition-all duration-500">
-                <div className="relative bg-gradient-to-br from-amber-500/15 via-amber-500/25 to-amber-600/15 
-                              text-amber-600 p-4 rounded-2xl inline-block
-                              shadow-md group-hover:shadow-xl transition-all duration-500
-                              border border-amber-200/30 group-hover:border-amber-300/50">
-                  <div className="relative z-10">
-                    <IconBox icon={service.icon} />
-                  </div>
-                  
-                  {/* Icon glow */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-amber-400/30 to-transparent 
-                                rounded-2xl blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                </div>
+                <IconBox icon={service.icon} />
 
                 {/* Decorative ring */}
                 <div className="absolute -inset-2 border-2 border-amber-300/0 group-hover:border-amber-300/30 
@@ -84,7 +73,7 @@ export default function ServiceGrid() {
                          shadow-sm hover:shadow-md
                          overflow-hidden group/btn"
               >
-                <span className="relative z-10">Explore</span>
+                <span className="relative z-10">Book Session</span>
                 
                 {/* Button shine effect */}
                 <span className="absolute inset-0 bg-gradient-to-r from-transparent via-amber-100/50 to-transparent 

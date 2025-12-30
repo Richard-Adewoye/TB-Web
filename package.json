@@ -25,5 +25,10 @@
     "eslint-config-next": "16.1.1",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "scripts": {
+  "dev": "next dev",
+  "build": "NEXT_PRIVATE_USE_TURBOPACK=0 next build",
+  "start": "next start"
+}
 }
